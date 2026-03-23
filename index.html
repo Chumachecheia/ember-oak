@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ember & Oak offers a versatile range of building and decorative materials. Direct manufacturer and supplier of sleek wall panels, ceilings, and more.">
+    <title>Ember & Oak - Premium Building & Design Materials</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Ember & Oak",
+      "image": "assets/hero_bg.png",
+      "@id": "",
+      "url": "https://emberandoak.example.com",
+      "telephone": "555-123-4567",
+      "email": "hello@emberandoak.example.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Design Avenue",
+        "addressLocality": "Metropolis",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "08:30",
+        "closes": "17:30"
+      }
+    }
+    </script>
+</head>
+<body>
+
+
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-house-chimney-window"></i></div>
+                <div class="logo-text">
+                    <span class="logo-title">Ember</span>
+                    <span class="logo-subtitle">& Oak</span>
+                </div>
+            </a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="assets/hero_bg.png" alt="Modern luxurious living room with elegant wall decor" fetchpriority="high">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <span class="badge fade-in-up">Direct Manufacturer & Supplier</span>
+            <h1 class="fade-in-up delay-1">Transform Your Spaces<br>With Elegance</h1>
+            <p class="fade-in-up delay-2">Discover the sleek finish of PVC ceilings and the modern appeal of WPC fluted panels for both indoor and outdoor elegance.</p>
+            <div class="hero-buttons fade-in-up delay-3">
+                <a href="#products" class="btn btn-primary">Explore Products</a>
+                <a href="#contact" class="btn btn-secondary">Visit Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- USPS Section -->
+    <div class="usps-bar">
+        <div class="container usps-container">
+            <div class="usp-item"><i class="fa-solid fa-warehouse"></i> Direct Warehouse</div>
+            <div class="usp-item"><i class="fa-solid fa-industry"></i> Direct Manufacturer</div>
+            <div class="usp-item"><i class="fa-solid fa-truck-fast"></i> Direct Supplier</div>
+            <div class="usp-item"><i class="fa-solid fa-tags"></i> Discounted Price</div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container about-container">
+            <div class="about-image reveal">
+                <img src="assets/wpc-panels.png" alt="Beautiful wall panels in a living room" loading="lazy">
+                <div class="experience-card">
+                    <i class="fa-solid fa-medal"></i>
+                    <div>
+                        <h3>Premium</h3>
+                        <p>Quality Materials</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text reveal delay-1">
+                <span class="section-subtitle">About Us</span>
+                <h2 class="section-title">Bringing Your Vision to Life</h2>
+                <p>Transform your spaces with our versatile range of building and decorative materials! Whether you're a homeowner looking to renovate or a contractor needing reliable supplies, Ember & Oak has everything you need.</p>
+                
+                <p>Complete your design with our durable doors, vibrant UV boards, and authentic-looking PU stone for stunning accents. Enhance your exteriors with robust decking solutions and elevate interiors with the smooth versatility of melamine boards.</p>
+                
+                <ul class="about-features">
+                    <li><i class="fa-solid fa-circle-check"></i> <strong>Indoor & Outdoor</strong> Elegance</li>
+                    <li><i class="fa-solid fa-circle-check"></i> <strong>High-Quality</strong> Manufacturer Quality</li>
+                    <li><i class="fa-solid fa-circle-check"></i> <strong>Affordable</strong> Factory Prices</li>
+                </ul>
+
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products section bg-light">
+        <div class="container">
+            <div class="section-header center reveal">
+                <span class="section-subtitle">Our Materials</span>
+                <h2 class="section-title">Versatile Range of Products</h2>
+                <p>Whatever your project, we have the quality materials to elevate your spaces.</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card reveal">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" alt="Sleek PVC Ceilings" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>PVC Ceilings</h3>
+                        <p>Sleek, modern finishes for any room. Easy to install and perfectly durable.</p>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card reveal delay-1">
+                    <div class="product-img">
+                        <img src="assets/wpc-panels.png" alt="Modern WPC Fluted Panels" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>WPC Fluted Panels</h3>
+                        <p>Modern appeal for indoor and outdoor elegance. Water-resistant and stylish.</p>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card reveal delay-2">
+                    <div class="product-img">
+                        <img src="assets/melamine-boards.png" alt="Smooth Melamine Boards" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Melamine Boards</h3>
+                        <p>Smooth versatility for custom furniture, cabinets, and interior builds.</p>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card reveal">
+                    <div class="product-img">
+                        <img src="assets/uv-boards.png" alt="Vibrant UV Boards" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Vibrant UV Boards</h3>
+                        <p>High-gloss finish and scratch-resistant panels for a premium look.</p>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card reveal delay-1">
+                    <div class="product-img">
+                        <img src="assets/pu-stone.png" alt="PU Stone Accents" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>PU Stone</h3>
+                        <p>Authentic-looking textures for stunning architectural accents without the weight.</p>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card reveal delay-2">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=800" alt="Robust Decking Solutions" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Decking Solutions</h3>
+                        <p>Enhance your exteriors with robust, weather-resistant decking boards.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-footer reveal">
+                <p>Plus <strong>durable doors</strong> and much more!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info / CTA Section -->
+    <section class="info-section">
+        <div class="container info-container reveal">
+            <h2>Ready to transform your home?</h2>
+            <p>Visit us today. We're open for Walk-In Customers!</p>
+            <div class="info-badges">
+                <span><i class="fa-regular fa-clock"></i> Mon - Sat | 8:30 AM - 5:30 PM</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header center reveal">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Visit Our Warehouse</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>123 Design Avenue,<br>Metropolis</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p><a href="tel:5551234567">(555) 123-4567</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:hello@emberandoak.example.com">hello@emberandoak.example.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="payment-delivery mt-4">
+                        <h3>Payment & Delivery Options</h3>
+                        <div class="pd-grid">
+                            <div class="pd-card">
+                                <h4><i class="fa-solid fa-truck"></i> Delivery</h4>
+                                <ul>
+                                    <li>Standard Shipping</li>
+                                    <li>Express Courier</li>
+                                    <li>Store Pick-Up</li>
+                                </ul>
+                            </div>
+                            <div class="pd-card">
+                                <h4><i class="fa-solid fa-credit-card"></i> Payment</h4>
+                                <ul>
+                                    <li>Credit Cards</li>
+                                    <li>Mobile Pay</li>
+                                    <li>Bank Transfer</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-map reveal delay-1">
+                    <!-- Placeholder Map -->
+                    <div class="map-placeholder">
+                        <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800" alt="Map Location" loading="lazy">
+                        <div class="map-overlay">
+                            <a href="https://maps.google.com/?q=123+Design+Avenue,+Metropolis" target="_blank" class="btn btn-primary" rel="noopener noreferrer"><i class="fa-solid fa-map-location-dot"></i> Get Directions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <div class="logo-icon"><i class="fa-solid fa-house-chimney-window"></i></div>
+                <div class="logo-text">
+                    <span class="logo-title">Ember</span>
+                    <span class="logo-subtitle">& Oak</span>
+                </div>
+                <p>Quality materials to bring your vision to life. Direct from manufacturer to you.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Business Hours</h3>
+                <p>Monday - Saturday</p>
+                <p>8:30 AM - 5:30 PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Ember & Oak. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
